@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/10/d2/3f/10d23fce3c9c05b19afea25b571d259b.jpg);
+}
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 30px;
+}
+.in-home{
+    text-align:center;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius:60px
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+h2{
+    text-align:center;
+    font-weight : blod;
+      padding : 20px;
+    }
+    img{border-radius:60px}
+    /*part1*/
+    .part1{
+     display : flex;
+     border: 1px solid black;
+     padding: 25px;
+     border-radius:60px
+      }
+    .paragraph1{
+      margin: 30px 100px;
+    }
+    
+    
+    /* part2 */
+    .part2 {
+     border: 1px solid black;
+     padding: 25px;
+     border-radius:60px
+      }
+    .part2 picture2{
+       display:flex;
+    
+    }
+    .paragraph2{
+      margin: 90px 50px;
+    }
+    .picture2{
+       float: right;
+      margin: 1 40px;
+    }
+    /* design table certificate*/
+    .certificates{
+      border: 1px solid black;
+      border-radius:60px
+    }
+     tr, td{
+       padding: 20px;
+      text-align: left;
+      }
+    tr:nth-child(even) {background-color: #f2f2f2;}
+    
+    /* design My skills */
+    .x {
+      width: 90%;
+      background-color: #ddd;
+      border-radius:60px
+    }
+    .skills {
+      border: 1px solid black;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color: black;  
+     border-radius:60px
+    
+    }
+    
+    .PHOTOSHOP{width: 90%; background-color: #2196F3;}
+    .HTML5/CSS3{width: 80%; background-color: #2196F3;}
+    .PYTHON{width: 65%; background-color: #2196F3;}
+    .MYSQL {width: 50%; background-color: #2196F3;}
+    .C/C++ {width: 10%; background-color: #2196F3;}
+    
+    
